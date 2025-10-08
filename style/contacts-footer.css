@@ -1,0 +1,26 @@
+#contacts-footer {
+  position: relative;
+  padding: 40px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+
+.contact-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  cursor: pointer;
+  z-index: 200;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.contact-btn:hover {
+  background-color: #e64a19;
+}
