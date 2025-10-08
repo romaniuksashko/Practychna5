@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 header {
   display: flex;
   gap: 20px;
@@ -7,6 +11,16 @@ header {
   width: 100%;
   background-color: white;
   z-index: 90;
+  top: 0;
+}
+
+.header-inside-link {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+}
+
+.header-inside-link:hover {
+  color: rgb(0, 0, 0);
 }
 
 .header-logo {
