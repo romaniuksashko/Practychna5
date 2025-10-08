@@ -1,0 +1,42 @@
+#about {
+  position: relative;
+  padding: 50px;
+  background-color: #f0f0f0;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+#gallery {
+  position: relative;
+  padding: 50px;
+  background-color: #e0e0e0;
+}
+
+.images {
+  position: relative;
+  height: 300px;
+}
+
+.images img {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.images img:nth-child(1) {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.images img:nth-child(2) {
+  top: 30px;
+  left: 100px;
+  z-index: 2;
+}
+.images img:nth-child(3) {
+  top: 60px;
+  left: 200px;
+  z-index: 3;
+}

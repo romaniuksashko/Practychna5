@@ -6,16 +6,16 @@
   <link rel="stylesheet" href="./style/header-hero.css">
   <link rel="stylesheet" href="./style/about-gallery.css">
   <link rel="stylesheet" href="./style/contacts-footer.css">
-  <title>Document</title>
+  <title>Практична №6</title>
 </head>
 <body>
   <header>
     <a href="./index.html" class="header-link"><img src="https://st2.depositphotos.com/3248189/7785/v/450/depositphotos_77852352-stock-illustration-silver-fern-of-new-zealand.jpg" alt="Папороть" class="header-logo"></a>
     <nav class="header-nav">
       <ul class="header-list">
-        <li class="header-item"><a href="#" class="header-inside-link">Про нас</a></li>
-        <li class="header-item"><a href="#" class="header-inside-link">Галерея</a></li>
-        <li class="header-item"><a href="#" class="header-inside-link">Контакти</a></li>
+        <li class="header-item"><a href="#about" class="header-inside-link">Про нас</a></li>
+        <li class="header-item"><a href="#gallery" class="header-inside-link">Галерея</a></li>
+        <li class="header-item"><a href="#contacts-footer" class="header-inside-link">Контакти</a></li>
       </ul>
     </nav>
   </header>
@@ -23,9 +23,27 @@
     <section class="hero">
       <h1 class="hero-title">Компанія "Зорепад"</h1>
     </section>
+    <section id="about">
+      <h2>Про нас</h2>
+      <p>Наша команда спеціалізується на сучасних <mark>веб-технологіях</mark> та створенні інтерактивних сайтів.</p>
+      <ul>
+        <li>Інноваційні підходи у веб-дизайні</li>
+        <li>Практичні кейси та поради</li>
+        <li>Використання мультимедіа та анімацій</li>
+      </ul>
+    </section>
+    <section id="gallery">
+      <h2>Галерея</h2>
+      <div class="images">
+        <img src="images/photo1.jpg" alt="Фото 1">
+        <img src="images/photo2.jpg" alt="Фото 2">
+        <img src="images/photo3.jpg" alt="Фото 3">
+      </div>
+    </section>
   </main>
-  <footer>
-
+  <footer id="contacts-footer">
+    <p>Контакти: email@example.com | Телефон: +380123456789</p>
+    <button class="contact-btn">Зв'язатися з нами</button>
   </footer>
 </body>
 </html>
